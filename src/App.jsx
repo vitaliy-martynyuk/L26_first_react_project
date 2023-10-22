@@ -1,7 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  const a = 1;
+
+  console.log(a);
   return (
     <div className="App">
       <header className="App-header">
